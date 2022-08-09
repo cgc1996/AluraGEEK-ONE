@@ -13,8 +13,8 @@ function crearArticuloAdmin(nombre,imagen,precio,categoria,id){
                     <p class="publicaciones_container_articulo_info_codigo">Cod:${id}</p>
                 </div>
                 <div class="publicaciones_container_articulo_opciones">
-                    <button class="boton-opciones"><img src="/assets/img/generales/boton-borrar.png" alt="eliminar"></button>
-                    <button class="boton-opciones"><img src="/assets/img/generales/boton-editar.png" alt="editar"></button>
+                    <button class="boton-opciones"><img src="../assets/img/generales/boton-borrar.png" alt="eliminar"></button>
+                    <button class="boton-opciones"><img src="../assets/img/generales/boton-editar.png" alt="editar"></button>
                 </div>
             </div>`
 
