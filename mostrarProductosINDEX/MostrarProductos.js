@@ -7,7 +7,7 @@ function crearArticulo(nombre,imagen,precio,id){
     <div class="publicaciones_categoria_articulo_info">
         <p class="publicaciones_categoria_articulo_info_nombre">${nombre}</p>
         <p class="publicaciones_categoria_articulo_info_precio">${precio}</p>
-        <a href="/vista de articulo/detalleDeProducto.html?id=${id}">Ver producto</a>
+        <a href="vista de articulo/detalleDeProducto.html?id=${id}">Ver producto</a>
     </div>`
 
     tarjeta.innerHTML=contenido
