@@ -1,0 +1,50 @@
+/*///////////ESTILOS CONTENIDO DE PAGINA (PUBLICACIONES)////////////////*/
+
+.publicaciones{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+
+}
+.publicaciones h2{
+    font-size: 2rem;
+    margin: 2rem 0rem
+}
+
+.publicaciones_encabezado{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.publicaciones_encabezado_titulo{
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+
+.publicaciones_categoria{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    justify-content: flex-start;
+}
+
+.publicaciones_categoria_articulo{
+    
+    
+    margin: 15px;
+    padding: 0.30rem;
+    box-shadow: 0px 0px 10px ;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+.publicaciones_categoria_articulo:hover{
+    transform: scale(1.05)
+}
+
+.publicaciones_categoria_articulo_info_nombre, .publicaciones_categoria_articulo_info_precio {
+    padding: 0.50rem 0;
+    font-size: 1.20rem;
+    
+}

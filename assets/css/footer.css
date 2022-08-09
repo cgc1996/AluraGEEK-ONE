@@ -1,0 +1,89 @@
+/*/////////ESTILOS PIE DE PAGINA/////////////*/
+  
+
+.sobre-nosotros{
+    background: lightblue;
+    grid-area: sobre-nosotros;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+  }
+
+.sobre-nosotros_logo{
+    align-self: stretch;
+   
+}
+/*//////////////////////////////////*/
+.sobre-nosotros_diferenciales{
+    display: flex;
+    flex-direction: column;
+    padding-left: rem;
+    text-align: center;
+    
+}
+.sobre-nosotros_diferenciales p{
+    padding: 0.8rem;
+    font-size: 1.15rem;
+    
+  }
+/*////////////////////////////////////*/
+.sobre-nosotros_contacto__inputs{
+    width: 40vw;
+
+}
+
+.sobre-nosotros_contacto__inputs_nombre {
+    height: 50px ;
+} 
+.sobre-nosotros_contacto__inputs_mensaje{
+   padding: 1rem 0 ;
+   height: 200px;
+      
+}
+.sobre-nosotros_contacto__inputs_nombre input, .sobre-nosotros_contacto__inputs_mensaje input{
+    height: 90%;
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 2px rgba(128, 128, 128, 0.5);
+    
+    
+}
+
+.sobre-nosotros_contacto__inputs_boton .boton, .banner_boton .boton{
+    background: #2a7ae4;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgb(65, 65, 255);
+
+}
+.sobre-nosotros_contacto__inputs_boton .boton:active, .banner_boton .boton:active , .principales_login_boton button:active{
+    box-shadow: none;
+    
+}
+/*///////////////////////////////*/
+.derechos-autor{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+/*///////////////////////////////////////*/
+@media screen and (max-width: 768px) {
+    
+    .sobre-nosotros{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+   
+    .sobre-nosotros_contacto__inputs{
+        width: 100vw;
+        margin-top: 2rem;
+    }
+   
+}

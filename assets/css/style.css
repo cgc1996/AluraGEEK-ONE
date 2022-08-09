@@ -1,0 +1,30 @@
+/*///////////////ESTILOS GENERALES///////////////////////*/
+
+.cuerpo { 
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr auto 30%;
+    grid-template-areas:
+      "cabecera"
+      "principales"
+      "footer";
+  }
+
+a{
+    color: black;
+  }
+
+.principales { 
+    grid-area: principales;
+    background: #EAF2FD; 
+}
+.footer { 
+    grid-area: footer;
+    background: #EAF2FD;
+    display: grid;
+    grid-template-areas: 
+    "sobre-nosotros"
+    "derechos-autor";
+   }
+

@@ -1,0 +1,57 @@
+
+/*/////////////////ESTILOS PAGINA LOGIN//////////////////////*/
+
+.principales_login{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.principales_login_content{
+    display: flex; 
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-around;
+
+}
+
+.principales_login__texto{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.principales_login_input input{
+    width: 20vw;
+    height: 75px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 2px rgba(128, 128, 128, 0.5);
+    margin: 1rem;
+    font-size: large;
+}
+
+
+.principales_login_boton button{
+    background: #2a7ae4;
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgb(65, 65, 255);
+    width: 150px;
+    margin: 2rem;
+
+}
+
+@media screen and (max-width: 768px){
+    .principales_login_input input{
+        width: 250px;
+    }
+    .principales_login{
+        height: 750px;
+    }
+}

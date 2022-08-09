@@ -1,0 +1,132 @@
+{   
+    "articulos":[
+        {
+        "nombre": "Estatuilla",
+        "imagenURL": "assets/img/fotos-articulos/StarsWars.png",
+        "precio": "$10.00",
+        "categoria":"Star Wars",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ######################### ########## ######### #########",
+        "id":"1"
+        },
+        {
+        "nombre": "Disfraz",
+        "imagenURL": "assets/img/fotos-articulos/StarsWars1.png",
+        "precio": "$15.00",
+        "categoria":"Star Wars",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"2"
+        },
+        {
+        "nombre": "Disfraz",
+        "imagenURL": "assets/img/fotos-articulos/StarsWars2.png",
+        "precio": "$20.00",
+        "categoria":"Star Wars",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"3"
+        },
+        
+        {
+        "nombre": "Taza",
+        "imagenURL": "assets/img/fotos-articulos/StarsWars3.png",
+        "precio": "$5.00",
+        "categoria":"Star Wars",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"4"
+        },
+        {
+        "nombre": "Estatuilla",
+        "imagenURL": "assets/img/fotos-articulos/StarsWars4.png",
+        "precio": "$5.00",
+        "categoria":"Star Wars",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"5"
+        },
+        {
+        "nombre": "Baby Joda",
+        "imagenURL": "assets/img/fotos-articulos/diversos4.png",
+        "precio": "$10.00",
+        "categoria":"Star Wars",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"6"
+        }, 
+        {
+        "nombre": "Joystick",
+        "imagenURL": "assets/img/fotos-articulos/consolas.png",
+        "precio": "$20.00",
+        "categoria":"Consolas",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"7"
+        },
+
+        {
+        "nombre": "Joystick",
+        "imagenURL": "assets/img/fotos-articulos/consolas1.png",
+        "precio": "$25.00",
+        "categoria":"Consolas",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"8"
+        },
+        {
+        "nombre": "Consola",
+        "imagenURL": "assets/img/fotos-articulos/consolas2.png",
+        "precio": "$200.00",
+        "categoria":"Consolas",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"9"
+        },
+        
+        {
+        "nombre": "Consola Portatil",
+        "imagenURL": "assets/img/fotos-articulos/consolas4.png",
+        "precio": "$50.00",
+        "categoria":"Consolas",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"10"
+        },
+        {
+        "nombre": "VR",
+        "imagenURL": "assets/img/fotos-articulos/diversos3.png",
+        "precio": "$300.00",
+        "categoria":"Consolas",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"11"
+        },
+        {
+        "nombre": "Muñeco Sonic",
+        "imagenURL": "assets/img/fotos-articulos/diversos.png",
+        "precio": "$17.50",
+        "categoria":"Diversos",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"12"
+        },
+        {
+        "nombre": "Mantel Atari",
+        "imagenURL": "assets/img/fotos-articulos/diversos1.png",
+        "precio": "$5.00",
+        "categoria":"Diversos",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"13"
+        },
+        
+        {
+        "nombre": "Disfraz Pikachu",
+        "imagenURL": "assets/img/fotos-articulos/diversos5.png",
+        "precio": "$15.00",
+        "categoria":"Diversos",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"14"
+        },
+        
+        {
+        "nombre": "Reloj Analógico",
+        "imagenURL": "assets/img/fotos-articulos/consolas3.png",
+        "precio": "$10.00",
+        "categoria":"Diversos",
+        "descripcion": "AQUI VA LA DESCRIPCION DEL PRODUCTO ########################## ########## ######### #########",
+        "id":"15"
+        }
+
+
+        
+    ]
+}

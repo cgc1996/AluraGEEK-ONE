@@ -1,0 +1,79 @@
+/*////////////////////////ESTILOS PAGINA ADMIN//////////////////////////////////*/
+
+
+
+.publicaciones-admin{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+    
+
+}
+
+.publicaciones-admin h2{
+    font-size: 2rem;
+    margin: 2rem 0rem
+}
+
+
+.publicaciones-admin_container{
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom: 2rem;
+    justify-content: flex-start;
+    
+}
+
+.publicaciones_container_articulo{
+    
+
+    margin: 1%;
+    padding: 0.30rem;
+    box-shadow: 0px 0px 10px ;
+    border-radius: 2px;
+    
+    
+}
+
+.publicaciones_container_articulo:hover{
+    box-shadow: 0px 0px 10px 8px red;
+}
+
+.publicaciones_container_articulo_info_nombre, .publicaciones_container_articulo_info_precio {
+    padding: 0.50rem 0;
+    font-size: 1.20rem;
+    
+}
+
+.publicaciones-admin_boton-crear-articulo .boton{
+    background: #2a7ae4;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgb(65, 65, 255);
+    margin: 2rem;
+}
+
+.publicaciones_container_articulo_opciones{
+    text-align: center;
+    
+}
+
+.publicaciones_container_articulo_opciones .boton-opciones{
+    background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 5%;
+    border: none;
+    box-shadow: 0 0 5px 2px;
+}
+
+
+@media screen and (max-width: 768px){
+    .publicaciones-admin h2, .publicaciones-admin_boton-principales_crear-articulo{
+        align-self: center;
+    }
+}
